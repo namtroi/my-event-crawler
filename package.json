@@ -4,8 +4,10 @@
     "type": "module",
     "description": "This is an example of a Crawlee project.",
     "dependencies": {
+        "@prisma/client": "^6.19.0",
         "crawlee": "^3.0.0",
-        "playwright": "*"
+        "playwright": "*",
+        "prisma": "^6.19.0"
     },
     "scripts": {
         "start": "node src/main.js",
